@@ -12,7 +12,7 @@ class ChessGame:
         self.square_size = self.window_size // 8
         self.colors = [(240, 217, 181), (181, 136, 99)]  # Light and dark squares
         self.piece_images = self.load_piece_images()
-        # self.sounds = self.load_sounds()
+        self.sounds = self.load_sounds()
         self.play_with_bot = False
         self.multiplayer = False
         self.elo = 1200
