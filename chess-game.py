@@ -53,7 +53,7 @@ class ChessGame:
                 images[piece] = placeholder
         return images
 
-
+#uncomment line 15
 
     def draw_board(self):
         for row in range(8):
